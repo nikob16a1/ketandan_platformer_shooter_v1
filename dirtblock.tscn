@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://t51medu4colo"]
+
+[ext_resource type="Texture2D" uid="uid://b087g4n7g1qcj" path="res://Terrain/Dirt_Base_Big.png" id="1_347x7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mo2rn"]
+size = Vector2(512, 64)
+
+[node name="Big Dirt" type="StaticBody2D"]
+position = Vector2(16, 16)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_347x7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_mo2rn")
