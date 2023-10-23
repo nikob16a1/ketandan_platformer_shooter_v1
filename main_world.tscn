@@ -1,0 +1,160 @@
+[gd_scene load_steps=6 format=3 uid="uid://c3kxrta436gpt"]
+
+[ext_resource type="PackedScene" uid="uid://cev13bxq1ueu8" path="res://block.tscn" id="1_m0uwy"]
+[ext_resource type="Script" path="res://main_world.gd" id="1_y02st"]
+[ext_resource type="PackedScene" uid="uid://t51medu4colo" path="res://dirtblock.tscn" id="2_2r8yu"]
+[ext_resource type="PackedScene" uid="uid://ckp2v6mbr8r3x" path="res://player.tscn" id="3_hxrcr"]
+[ext_resource type="PackedScene" uid="uid://oa8uom4maj66" path="res://platform.tscn" id="5_obm7o"]
+
+[node name="Main_World" type="Node2D"]
+script = ExtResource("1_y02st")
+
+[node name="Player" parent="." instance=ExtResource("3_hxrcr")]
+position = Vector2(8, 184)
+
+[node name="Big Grass" parent="." instance=ExtResource("1_m0uwy")]
+position = Vector2(256, 224)
+
+[node name="Big Grass2" parent="." instance=ExtResource("1_m0uwy")]
+position = Vector2(384, 192)
+
+[node name="Big Dirt" parent="." instance=ExtResource("2_2r8yu")]
+position = Vector2(256, 288)
+
+[node name="Big Dirt2" parent="." instance=ExtResource("2_2r8yu")]
+position = Vector2(768, 256)
+
+[node name="Big Dirt3" parent="." instance=ExtResource("2_2r8yu")]
+position = Vector2(768, 288)
+
+[node name="platform" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(200, 120)
+
+[node name="platform2" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(216, 120)
+
+[node name="platform3" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(232, 104)
+
+[node name="platform4" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(248, 104)
+
+[node name="platform5" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(328, 72)
+
+[node name="platform6" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(344, 72)
+
+[node name="platform7" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(360, 72)
+
+[node name="platform8" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(376, 72)
+
+[node name="platform9" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(328, 56)
+
+[node name="platform10" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(328, 40)
+
+[node name="platform11" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(328, 24)
+
+[node name="platform12" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(328, 8)
+
+[node name="platform13" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(344, 8)
+
+[node name="platform14" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(360, 8)
+
+[node name="platform15" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(376, 8)
+
+[node name="platform16" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(392, 72)
+
+[node name="platform17" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(408, 72)
+
+[node name="platform18" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(424, 72)
+
+[node name="platform19" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(-8, 200)
+
+[node name="platform20" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(-8, 184)
+
+[node name="platform21" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(-8, 168)
+
+[node name="platform22" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(-8, 152)
+
+[node name="platform23" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(-8, 136)
+
+[node name="platform24" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(-8, 120)
+
+[node name="platform25" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(-8, 104)
+
+[node name="platform26" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(-8, 88)
+
+[node name="platform27" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(-8, 72)
+
+[node name="platform28" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(-8, 56)
+
+[node name="Big Grass4" parent="." instance=ExtResource("1_m0uwy")]
+position = Vector2(832, 64)
+
+[node name="Big Dirt4" parent="." instance=ExtResource("2_2r8yu")]
+position = Vector2(832, 128)
+
+[node name="Big Dirt5" parent="." instance=ExtResource("2_2r8yu")]
+position = Vector2(832, 192)
+
+[node name="platform29" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(312, 72)
+
+[node name="platform30" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(296, 72)
+
+[node name="platform31" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(312, 8)
+
+[node name="platform33" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(248, 40)
+
+[node name="platform34" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(72, 136)
+
+[node name="platform35" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(56, 136)
+
+[node name="platform36" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(568, 120)
+
+[node name="platform37" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(552, 120)
+
+[node name="platform38" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(504, 72)
+
+[node name="platform39" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(488, 72)
+
+[node name="platform40" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(584, 24)
+
+[node name="platform41" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(584, 8)
+
+[node name="platform32" parent="." instance=ExtResource("5_obm7o")]
+position = Vector2(232, 40)
